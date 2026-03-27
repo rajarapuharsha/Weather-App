@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="template">
+        <div class="text">
+        <input type="text" placeholder="enter city name" class="input" spellcheck="false">
+         <a href="#" class="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+       </div>
+    <div class="weather">
+       <img src="assets/clear.png" class="weather-icon" alt="clear" border="0" >
+        <h1 class="temp">22°C</h1>
+        <h2 class="city"></h2>
+        <div class="details">
+            <div class="col">
+              <img src="assets/humidity.png" alt="humidity" border="0">
+                <div>
+                    <p class="Humidity">50%</p>
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                   <img src="assets/wind.png" alt="wind" border="0">
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+            </div>
+            <div class="col">
+                  <img src="assets/weather.png" alt="weather" border="0" style="width: 70px; height: 70px;">
+                    <div>
+                        <p class="presure">500Pa</p>
+                        <p>Pressure</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+<script src="scripts.js"></script>
+    
+</body>
+</html>
